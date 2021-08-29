@@ -85,6 +85,7 @@ FROM TALUNO;
 
 COMMIT;
 
+
 ------------------Data
 SELECT * FROM DUAL;
 

@@ -49,7 +49,7 @@ SELECT REPLACE(Upper(NOME),'R','$') FROM TALUNO;
 
 --
 
-SELECT SubStr(NOME,Length(nome),1) FROM TALUNO;
+SELECT nome, SubStr(NOME,Length(nome),1) FROM TALUNO;
 
 --
 SELECT SubStr(NOME,Length(nome)-1, 2) FROM TALUNO;
@@ -83,6 +83,7 @@ SELECT
 FROM TALUNO;
 
 
+COMMIT;
 
 ------------------Data
 SELECT * FROM DUAL;
